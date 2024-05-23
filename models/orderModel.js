@@ -10,9 +10,6 @@ const orderSchema = mongoose.Schema(
       required: [true, "Don't be shy, confess your feelings"],
     },
     
-  },
-  {
-    timestamps: true,
   }
 );
 

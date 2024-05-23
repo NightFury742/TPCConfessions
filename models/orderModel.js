@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const orderSchema = mongoose.Schema(
   {
-    rollno: {
+    roll_no: {
       type: String,
       required: [true, "please add yuour rollno. Don't worry we won't share it ;) "],
     },

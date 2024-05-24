@@ -49,7 +49,7 @@ https://tpcconfessions.onrender.com/
    ```
    This endpoint makes an HTTP GET request to retrieve a confession based on the provided roll number. The request should include the roll number in the request body.
 
-   ### Request Parameters
+   ### Query Parameters
    
    - roll_no (string): The roll number for which the confession is requested.
        
@@ -63,7 +63,7 @@ https://tpcconfessions.onrender.com/
      {
        "_id": "664fa4ea2b940ca1bbcc147e",
        "roll_no": "25bec069",
-       "confession": "Post your confession here",
+       "confession": "This is how you get data from API",
      }
    ]
     ```

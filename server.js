@@ -13,7 +13,7 @@ connectDb();
 
 app.get("/api/getConfession", async (req, res) => {
   try {
-    let roll_no = req.body.roll_no;
+    let roll_no = req.query.roll_no;
     roll_no = roll_no.toLowerCase();
     const orders = await Orders.find({ roll_no: roll_no });
     res.status(200).json(orders);
